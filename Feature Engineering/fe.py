@@ -106,7 +106,6 @@ print(f"Deplasman gol averaji: {away_goal_difference}")
 # Gol averajı verileri
 categories = ['Ev Sahibi Gol Averaji', 'Deplasman Gol Averaji']
 goal_difference = [home_goal_difference, away_goal_difference]
-
 # Görselleştirme
 plt.figure(figsize=(8, 6))
 sns.barplot(x=categories, y=goal_difference, palette='Blues')
@@ -115,3 +114,4 @@ plt.ylabel('Gol Averaji')
 plt.xlabel('Takim Turu')
 plt.axhline(0, color='black', linewidth=1)  # Sıfır çizgisi
 plt.show()
+
