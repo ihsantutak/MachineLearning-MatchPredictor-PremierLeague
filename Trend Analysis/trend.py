@@ -43,6 +43,8 @@ plt.ylabel('Galibiyet Orani', fontsize=12)
 plt.xticks(range(N), labels=[f'Mac {i+1}' for i in range(N)], rotation=45)
 plt.legend(loc='center left', bbox_to_anchor=(1, 0.5), fontsize=10)  # Legend'i sağa kaydırmak için
 
+
+
 plt.grid(True)
 plt.tight_layout()
 plt.show()
