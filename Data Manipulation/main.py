@@ -77,8 +77,3 @@ y_train = df_train['FTR']  # Hedef değişken
 
 X_test = df_test.drop(['FTR', 'Date', 'Div'], axis=1)
 y_test = df_test['FTR']
-
-
-# Eğitim ve test setlerinin boyutlarını kontrol edelim
-print(f"Egitim seti boyutu: {X_train.shape}")
-print(f"Test seti boyutu: {X_test.shape}")
