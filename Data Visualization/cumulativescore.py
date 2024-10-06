@@ -57,5 +57,4 @@ plt.ylabel('Puan', fontsize=12)
 # Takım isimlerini göstermek için legend
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1), title="Teams", fontsize=10)
 plt.tight_layout()
-
 plt.show()
