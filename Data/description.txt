@@ -1,1 +1,0 @@
-This dataset contains data of every game from the 2018-2019 season in the English Premier League. 
