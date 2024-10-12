@@ -18,12 +18,6 @@ To better analyze and understand the dataset, I visualized a cumulative points t
 ![Cumulative Points Graph](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Data%20Visualization/2018-2019%20Premier%20League.png)
 
 
-  ## Model Performance
-
-Below is the confusion matrix for the Random Forest model, showcasing how the model performed in predicting match outcomes:
-
-![Confusion Matrix](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Confusion%20Matrix%20Visualization/Figure_1.png)
-
 
 ## Dataset Description
 The dataset used in this project contains data from 380 matches played during the 2018-2019 English Premier League season. It includes a total of 23 variables, each capturing key aspects of match outcomes and statistics. Below is a summary of the features available in the dataset:
@@ -78,6 +72,12 @@ The dataset used in this project contains data from 380 matches played during th
 
 6. **AwayFormGoals (Away Team's Goals in the Last 5 Away Matches)**  
    - **Description**: The total number of goals scored by the away team in their last 5 away matches. Reflects the team's short-term attacking efficiency.
+
+## Model Performance
+
+Below is the confusion matrix for the Random Forest model, showcasing how the model performed in predicting match outcomes:
+
+![Confusion Matrix](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Confusion%20Matrix%20Visualization/Figure_1.png)
 
   ## Feature Importance
 
