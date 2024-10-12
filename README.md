@@ -24,13 +24,6 @@ Below is the confusion matrix for the Random Forest model, showcasing how the mo
 
 ![Confusion Matrix](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Confusion%20Matrix%20Visualization/Figure_1.png)
 
-## Feature Importance
-
-To understand which features had the most influence on the model's predictions, feature importance scores were calculated and visualized. This analysis revealed that **HomePPG** and **AwayPPG** played the most significant roles in determining the outcomes.
-
-![Feature Importance Graph](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Feature%20Importance%20Visualization/fiv.png)
-
-
 
 ## Dataset Description
 The dataset used in this project contains data from 380 matches played during the 2018-2019 English Premier League season. It includes a total of 23 variables, each capturing key aspects of match outcomes and statistics. Below is a summary of the features available in the dataset:
@@ -85,6 +78,23 @@ The dataset used in this project contains data from 380 matches played during th
 
 6. **AwayFormGoals (Away Team's Goals in the Last 5 Away Matches)**  
    - **Description**: The total number of goals scored by the away team in their last 5 away matches. Reflects the team's short-term attacking efficiency.
+
+  ## Feature Importance
+
+To understand which features had the most influence on the model's predictions, feature importance scores were calculated and visualized. This analysis revealed that **HomePPG** and **AwayPPG** played the most significant roles in determining the outcomes.
+
+![Feature Importance Graph](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Feature%20Importance%20Visualization/fiv.png)
+
+## Results and Recommendations ⚽
+
+In this project, a **Random Forest** algorithm was employed to predict the match outcomes for the **Premier League 2018-2019** season. The model achieved a **60% accuracy**, which is a notable success given the unpredictable nature of football matches and the numerous factors that influence the outcomes. 📈
+
+However, there is room for improvement to further enhance the model's accuracy and predictive power. Below are some recommendations for future development and optimization:
+
+- Experiment with different algorithms (e.g., **XGBoost**, **LightGBM**) to compare performance.
+- Fine-tune the model’s hyperparameters using **GridSearchCV** or **RandomizedSearchCV** to achieve better accuracy.
+- Incorporate additional features, such as **weather conditions**, **player injuries**, or **team morale**, to enrich the dataset and improve predictions.
+
 
   ![Premier League Logo](https://images6.alphacoders.com/135/1357833.jpeg)
    
