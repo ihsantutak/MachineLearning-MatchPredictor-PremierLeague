@@ -85,15 +85,10 @@ To understand which features had the most influence on the model's predictions, 
 
 ![Feature Importance Graph](https://raw.githubusercontent.com/ihsantutak/MachineLearning-MatchPredictor-PremierLeague/refs/heads/main/Models/Random%20Forest/Feature%20Importance%20Visualization/fiv.png)
 
-## Results and Recommendations ⚽
+## Results ⚽
 
 In this project, a **Random Forest** algorithm was employed to predict the match outcomes for the **Premier League 2018-2019** season. The model achieved a **60% accuracy**, which is a notable success given the unpredictable nature of football matches and the numerous factors that influence the outcomes. 📈
 
-However, there is room for improvement to further enhance the model's accuracy and predictive power. Below are some recommendations for future development and optimization:
-
-- Experiment with different algorithms (e.g., **XGBoost**, **LightGBM**) to compare performance.
-- Fine-tune the model’s hyperparameters using **GridSearchCV** or **RandomizedSearchCV** to achieve better accuracy.
-- Incorporate additional features, such as **weather conditions**, **player injuries**, or **team morale**, to enrich the dataset and improve predictions.
 
 
   ![Premier League Logo](https://images6.alphacoders.com/135/1357833.jpeg)
